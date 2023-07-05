@@ -1,0 +1,48 @@
+Conteúdo/estrutura (mínima):
+Título do projeto
+	Treinamento e Geração de Histograma com Detecção de Imagem para Jokempô
+Equipe
+	Mateus Tormes Gervazioni
+Dataset
+	https://github.com/mateustormes/trabalho_utfpr
+Descrição do projeto
+Para que serve? O que faz? Limitações/restrições? Etc.
+	Primeiramente ele faz o treinamento através de um conjunto de imagens, depois executa um conjunto de teste
+	e obtém a acurácia do modelo, armazena em uma imagem e salva em results, após ele utiliza o mesmo conjunto de imagem
+	e verifica oque a imagem_escolhida representa se é uma (tesoura, papel ou pedra)(jogador),
+	após o reconhecimento é sorteado um numero aleatorio para o computador, e logo após é definido quem venceu,perdeu
+	ou se houve empate.
+Repositório do projeto
+	https://github.com/mateustormes/trabalho_utfpr
+Classificador e acurácia
+	O código fornecido utiliza um classificador de Floresta Aleatória (Random Forest) para realizar 
+	o reconhecimento de imagens do jogo "Pedra, Papel e Tesoura". Ele divide o processo em duas fases:
+	treinamento e teste.
+	O classificador utilizado é o Random Forest Classifier (da biblioteca Scikit-learn). A acurácia obtida 
+	não é mencionada explicitamente no código fornecido, mas é calculada internamente durante a fase
+	 de teste e exibida na matriz de confusão.
+
+Instalação de Bibliotecas/Dependências:
+	pip install opencv-python
+	pip install numpy
+	pip install scikit-learn
+	pip install matplotlib
+	pip install progress
+Estrutura de Pastas:
+- Pasta do projeto
+  - Rock-Paper-Scissors
+    - train
+      - Imagens de treinamento
+    - test
+      - Imagens de teste
+  - imagem_escolhida.png
+  - main.py (código fornecido)
+
+Instalação e Execução
+	Para executar o código, salve-o como main.py na pasta do seu projeto. Certifique-se de ter a estrutura 
+	de pastas mencionada acima, com as imagens de treinamento e teste no diretório apropriado.
+
+Em seguida, você pode executar o script main.py. Ele realizará o treinamento do classificador,
+ exibirá a acurácia, plotará a matriz de confusão e, finalmente, realizará a previsão para a imagem
+ imagem_escolhida.png, exibindo o resultado do jogo. Certifique-se de ter todas as bibliotecas instaladas
+ corretamente antes de executar o código.
