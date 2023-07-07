@@ -8,6 +8,8 @@ Equipe
 	Mateus Tormes Gervazioni
 Dataset
 	https://github.com/mateustormes/trabalho_utfpr
+  https://www.youtube.com/watch?v=EvEcmr8TUVc
+  UTFPR - Jogo Jokempo com Detecção de Imagens - Utilizando Random Forest
 Descrição do projeto
 	Primeiramente ele faz o treinamento através de um conjunto de imagens, depois executa um conjunto de teste
 	e obtém a acurácia do modelo, armazena em uma imagem e salva em results, após ele utiliza o mesmo conjunto de imagem e verifica oque a imagem_escolhida representa se é uma (tesoura, papel ou pedra)(jogador),
@@ -29,6 +31,7 @@ As limitações e restrições do projeto incluem:
     7-Restrição à linguagem Python: O projeto foi implementado na linguagem Python e depende de bibliotecas específicas para funcionar corretamente. Se você deseja utilizar o projeto em outra linguagem de programação, será necessário reimplementá-lo e adaptá-lo de acordo.
 Repositório do projeto
 	https://github.com/mateustormes/trabalho_utfpr
+  https://www.youtube.com/watch?v=EvEcmr8TUVc
 Classificador e acurácia
 	O código fornecido utiliza um classificador de Floresta Aleatória (Random Forest) para realizar 
 	o reconhecimento de imagens do jogo "Pedra, Papel e Tesoura". Ele divide o processo em duas fases:
